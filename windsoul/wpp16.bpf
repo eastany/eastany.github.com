@@ -1,0 +1,33 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+USEUNIT("readbmp.cpp");
+USEUNIT("blit.cpp");
+USEUNIT("canvas.cpp");
+USEUNIT("datafile.cpp");
+USEUNIT("gdi.cpp");
+USEUNIT("bitmap.cpp");
+USEOBJ("blit16.obj");
+USEUNIT("text.cpp");
+USEUNIT("wstring.cpp");
+USEUNIT("object.cpp");
+USEUNIT("geometry.cpp");
+USEOBJ("alpha16.obj");
+USEOBJ("text16.obj");
+USEUNIT("achannel.cpp");
+USEUNIT("readtga.cpp");
+USEOBJ("font16.obj");
+USEUNIT("font.cpp");
+USEUNIT("..\jpeg\jpeg.cpp");
+USEUNIT("..\jpeg\decode.c");
+USEUNIT("..\jpeg\huffman.c");
+USEUNIT("..\jpeg\idct.c");
+USEUNIT("..\jpeg\Quanty.c");
+USEUNIT("..\jpeg\rgb.c");
+USEUNIT("..\jpeg\segment.c");
+//---------------------------------------------------------------------------
+#define Library
+
+// To add a file to the library use the Project menu 'Add to Project'.
+

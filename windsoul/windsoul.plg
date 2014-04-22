@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: windsoul - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP92.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /base:"0x11000000" /dll /incremental:no /pdb:"../lib/windsoul.pdb" /machine:I386 /out:"../dll/windsoul.dll" /implib:"../lib/windsoul.lib" /pdbtype:sept /MAPINFO:LINES 
+".\Release\wsapp.obj"
+".\Release\wsmap.obj"
+".\Release\wswnd.obj"
+".\Release\achannel.obj"
+".\Release\CANVAS.OBJ"
+".\Release\font.obj"
+".\Release\geometry.obj"
+".\Release\timer.obj"
+".\Release\wstring.obj"
+".\Release\wsurface.obj"
+".\Release\bitmap.obj"
+".\Release\blit.obj"
+".\Release\datafile.obj"
+".\Release\gdi.obj"
+".\Release\memory.obj"
+".\Release\object.obj"
+".\Release\readbmp.obj"
+".\Release\readtga.obj"
+".\Release\text.obj"
+".\Release\windsoul.res"
+".\Release\alpha16.obj"
+".\Release\blit16.obj"
+".\Release\box16.obj"
+".\Release\font16.obj"
+".\Release\string.obj"
+".\Release\surface.obj"
+".\Release\text16.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP92.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library ../lib/windsoul.lib and object ../lib/windsoul.exp
+
+
+
+<h3>Results</h3>
+windsoul.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

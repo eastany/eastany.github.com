@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="wsaddons" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="D:/WS/wsaddons/Release/wsaddons" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-DWINDSOULADD_STATICLIB" />
+					<Add option="-D_AFXDLL" />
+					<Add directory="../include" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="D:/WS/wsaddons/Debug/wsaddons" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-DWINDSOULADD_STATICLIB" />
+					<Add directory="../include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="../Sprite/sptcache.h" />
+		<Unit filename="../Sprite/wsprite.h" />
+		<Unit filename="../Sprite/wsptint.h" />
+		<Unit filename="../addon/WSMASK.H" />
+		<Unit filename="../wsaddon/Release/lozblit.obj" />
+		<Unit filename="../wsaddon/Release/sptblit.obj" />
+		<Unit filename="../wsaddon/lozenge.cpp" />
+		<Unit filename="../wsaddon/mask.cpp" />
+		<Unit filename="../wsaddon/rand.cpp" />
+		<Unit filename="../wsaddon/richtext.cpp" />
+		<Unit filename="../wsaddon/sptani.cpp" />
+		<Unit filename="../wsaddon/sptcache.cpp" />
+		<Unit filename="../wsaddon/sptdraw.cpp" />
+		<Unit filename="../wsaddon/switch.cpp" />
+		<Unit filename="../wsaddon/terra.cpp" />
+		<Unit filename="../wsaddon/tips.cpp" />
+		<Unit filename="../wsaddon/wsprite.cpp" />
+		<Unit filename="../wsaddon/zoombmp.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

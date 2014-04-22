@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mfcex01" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="D:/WS/examples/mfcex01/Release/mfcex01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_AFXDLL" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="D:/WS/examples/mfcex01/Debug/mfcex01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_AFXDLL" />
+					<Add option="-D_MBCS" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="MainFrm.cpp" />
+		<Unit filename="MainFrm.h" />
+		<Unit filename="ReadMe.txt" />
+		<Unit filename="Resource.h" />
+		<Unit filename="StdAfx.cpp" />
+		<Unit filename="StdAfx.h" />
+		<Unit filename="mfcex01.cpp" />
+		<Unit filename="mfcex01.h" />
+		<Unit filename="mfcex01.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="mfcex01.reg" />
+		<Unit filename="mfcexDoc.cpp" />
+		<Unit filename="mfcexDoc.h" />
+		<Unit filename="mfcexView.cpp" />
+		<Unit filename="mfcexView.h" />
+		<Unit filename="res/Toolbar.bmp" />
+		<Unit filename="res/mfcex01.ico" />
+		<Unit filename="res/mfcex01.rc2" />
+		<Unit filename="res/mfcexDoc.ico" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

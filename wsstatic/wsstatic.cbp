@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="wsstatic" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="D:/WS/wsstatic/Release/wsstatic" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Release" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-D_MSVC" />
+					<Add option="-D_AFXDLL" />
+					<Add directory="../include" />
+				</Compiler>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="D:/WS/wsstatic/Debug/wsstatic" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="Debug" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_LIB" />
+					<Add option="-D_MSVC" />
+					<Add directory="../include" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="../JPEG/DECODE.C">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../JPEG/HUFFMAN.C">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../JPEG/IDCT.C">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../JPEG/JPEG.CPP" />
+		<Unit filename="../JPEG/Quanty.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../JPEG/RGB.C">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../JPEG/SEGMENT.C">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../jpeg/jpegint.h" />
+		<Unit filename="../windsoul/CANVAS.CPP" />
+		<Unit filename="../windsoul/Release/alpha16.obj" />
+		<Unit filename="../windsoul/Release/blit16.obj" />
+		<Unit filename="../windsoul/Release/box16.obj" />
+		<Unit filename="../windsoul/Release/font16.obj" />
+		<Unit filename="../windsoul/Release/string.obj" />
+		<Unit filename="../windsoul/Release/surface.obj" />
+		<Unit filename="../windsoul/Release/text16.obj" />
+		<Unit filename="../windsoul/WSTRING.CPP" />
+		<Unit filename="../windsoul/achannel.cpp" />
+		<Unit filename="../windsoul/bitmap.cpp" />
+		<Unit filename="../windsoul/blit.cpp" />
+		<Unit filename="../windsoul/datafile.cpp" />
+		<Unit filename="../windsoul/font.cpp" />
+		<Unit filename="../windsoul/gdi.cpp" />
+		<Unit filename="../windsoul/geometry.cpp" />
+		<Unit filename="../windsoul/memory.cpp" />
+		<Unit filename="../windsoul/object.cpp" />
+		<Unit filename="../windsoul/readbmp.cpp" />
+		<Unit filename="../windsoul/readtga.cpp" />
+		<Unit filename="../windsoul/text.cpp" />
+		<Unit filename="../windsoul/timer.cpp" />
+		<Unit filename="../windsoul/wsurface.cpp" />
+		<Unit filename="../wsapp/wsapp.cpp" />
+		<Unit filename="../wsapp/wsmap.cpp" />
+		<Unit filename="../wsapp/wswnd.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

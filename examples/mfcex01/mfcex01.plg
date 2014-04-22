@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mfcex01 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/mfcex01.res" /d "_DEBUG" /d "_AFXDLL" "C:\Documents and Settings\Cloud\Desktop\wpp16\examples\mfcex01\mfcex01.rc"" 
+Creating temporary file "C:\DOCUME~1\Cloud\LOCALS~1\Temp\RSP889.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/mfcex01.pdb" /debug /machine:I386 /out:"Debug/mfcex01.exe" /pdbtype:sept 
+".\Debug\mfcex01.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\mfcexDoc.obj"
+".\Debug\mfcexView.obj"
+".\Debug\mfcex01.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Cloud\LOCALS~1\Temp\RSP889.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+mfcex01.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

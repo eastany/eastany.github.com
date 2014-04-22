@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex01 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7A57.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Ex01.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\WS\EXAMPLES\ex01.cpp"
+"D:\WS\EXAMPLES\main.cpp"
+"D:\WS\windsoul\gdi.cpp"
+"D:\WS\wsapp\wsapp.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7A57.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP7A68.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Ex01.pdb" /machine:I386 /out:"Release/Ex01.exe" /libpath:"../../lib" 
+.\Release\ex01.obj
+.\Release\main.obj
+.\Release\gdi.obj
+.\Release\wsapp.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP7A68.tmp"
+<h3>Output Window</h3>
+Compiling...
+ex01.cpp
+D:\WS\EXAMPLES\ex01.cpp(126) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\WS\EXAMPLES\ex01.cpp(127) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+D:\WS\EXAMPLES\ex01.cpp(192) : warning C4101: 'j' : unreferenced local variable
+D:\WS\EXAMPLES\ex01.cpp(190) : warning C4101: 'sx' : unreferenced local variable
+D:\WS\EXAMPLES\ex01.cpp(190) : warning C4101: 'sy' : unreferenced local variable
+main.cpp
+gdi.cpp
+D:\WS\windsoul\gdi.cpp(44) : warning C4273: 'Blit2DC' : inconsistent dll linkage.  dllexport assumed.
+D:\WS\windsoul\gdi.cpp(54) : warning C4273: 'Blit2DC' : inconsistent dll linkage.  dllexport assumed.
+wsapp.cpp
+D:\WS\wsapp\wsapp.cpp(36) : warning C4273: 'public: static struct WMessageFunc const * const WApplication::messageEntries' : inconsistent dll linkage.  dllexport assumed.
+D:\WS\wsapp\wsapp.cpp(36) : error C2491: 'WApplication::messageEntries' : definition of dllimport static data member not allowed
+D:\WS\wsapp\wsapp.cpp(41) : warning C4273: 'WApplication::WApplication' : inconsistent dll linkage.  dllexport assumed.
+D:\WS\wsapp\wsapp.cpp(46) : warning C4273: 'CreateMainWindow' : inconsistent dll linkage.  dllexport assumed.
+D:\WS\wsapp\wsapp.cpp(51) : warning C4273: 'OnDestroy' : inconsistent dll linkage.  dllexport assumed.
+D:\WS\wsapp\wsapp.cpp(57) : warning C4273: 'Excute' : inconsistent dll linkage.  dllexport assumed.
+D:\WS\wsapp\wsapp.cpp(77) : warning C4273: 'Quit' : inconsistent dll linkage.  dllexport assumed.
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Ex01.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

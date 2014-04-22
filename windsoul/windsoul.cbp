@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="windsoul" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="../dll/windsoul" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DWINDSOUL_EXPORTS" />
+					<Add option="-D_MSVC" />
+					<Add directory="../include" />
+				</Compiler>
+				<Linker>
+					<Add option="--dll " />
+					<Add option="--image-base 0x11000000" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="../dll/wsdebug" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DWINDSOUL_EXPORTS" />
+					<Add option="-D_MSVC" />
+					<Add directory="../include" />
+				</Compiler>
+				<Linker>
+					<Add option="--dll " />
+					<Add option="--image-base 0x11000000" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="ddraw" />
+				</Linker>
+			</Target>
+			<Target title="Win32 VTune">
+				<Option output="../dll/windsoul" prefix_auto="1" extension_auto="1" />
+				<Option object_output="windsoul___Win32_VTune" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-D_MSVC" />
+					<Add option="-DWINDSOUL_EXPORTS" />
+					<Add option="-g" />
+					<Add directory="../include" />
+				</Compiler>
+				<Linker>
+					<Add option="--dll " />
+					<Add option="--image-base 0x11000000" />
+					<Add library="ddraw" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="Win32 API">
+				<Option output="../dll/wsapi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="windsoul___Win32_API" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-D_MSVC" />
+					<Add option="-DWINDSOUL_EXPORTS" />
+					<Add option="-D_API" />
+					<Add directory="../include" />
+				</Compiler>
+				<Linker>
+					<Add option="--dll " />
+					<Add option="--image-base 0x11000000" />
+					<Add library="ddraw" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+			<Target title="Win32 CanvasDebug">
+				<Option output="../dll/wsdebug" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-D_MSVC" />
+					<Add option="-DWINDSOUL_EXPORTS" />
+					<Add directory="../include" />
+				</Compiler>
+				<Linker>
+					<Add option="--dll " />
+					<Add option="--image-base 0x11000000" />
+					<Add library="ddraw" />
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../include/windsoul.h" />
+		<Unit filename="../include/wsalpha.h" />
+		<Unit filename="../include/wsapi.h" />
+		<Unit filename="../include/wsapp.h" />
+		<Unit filename="../include/wsbitmap.h" />
+		<Unit filename="../include/wscanvas.h" />
+		<Unit filename="../include/wserror.h" />
+		<Unit filename="../include/wsfile.h" />
+		<Unit filename="../include/wsfont.h" />
+		<Unit filename="../include/wsgeo.h" />
+		<Unit filename="../include/wshelper.h" />
+		<Unit filename="../include/wsjpeg.h" />
+		<Unit filename="../include/wsmemory.h" />
+		<Unit filename="../include/wsstring.h" />
+		<Unit filename="../include/wstimer.h" />
+		<Unit filename="../include/wsurface.h" />
+		<Unit filename="../jpeg/Quanty.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../jpeg/decode.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../jpeg/huffman.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../jpeg/idct.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../jpeg/jpeg.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../jpeg/jpegint.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../jpeg/rgb.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../jpeg/segment.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="../wsapp/wsapp.cpp" />
+		<Unit filename="../wsapp/wsmap.cpp" />
+		<Unit filename="../wsapp/wsmap.h" />
+		<Unit filename="../wsapp/wswnd.cpp" />
+		<Unit filename="CANVAS.CPP" />
+		<Unit filename="WSTRING.CPP" />
+		<Unit filename="achannel.cpp" />
+		<Unit filename="achannel.h" />
+		<Unit filename="alpha16.asm" />
+		<Unit filename="bitmap.cpp" />
+		<Unit filename="blit.cpp" />
+		<Unit filename="blit16.asm" />
+		<Unit filename="bmpclip.mac" />
+		<Unit filename="bmpmem.h" />
+		<Unit filename="box16.asm" />
+		<Unit filename="boxclip.mac" />
+		<Unit filename="c32.mac" />
+		<Unit filename="canvasin.h" />
+		<Unit filename="datafile.cpp" />
+		<Unit filename="font.cpp" />
+		<Unit filename="font16.asm" />
+		<Unit filename="fontclip.mac" />
+		<Unit filename="fontint.h" />
+		<Unit filename="gdi.cpp" />
+		<Unit filename="geoint.h" />
+		<Unit filename="geometry.cpp" />
+		<Unit filename="memory.cpp" />
+		<Unit filename="object.cpp" />
+		<Unit filename="objheap.h" />
+		<Unit filename="readbmp.cpp" />
+		<Unit filename="readtga.cpp" />
+		<Unit filename="string.asm" />
+		<Unit filename="surface.asm" />
+		<Unit filename="text.cpp" />
+		<Unit filename="text16.asm" />
+		<Unit filename="textint.h" />
+		<Unit filename="timer.cpp" />
+		<Unit filename="windsoul.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wpp.inc" />
+		<Unit filename="wsurface.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
